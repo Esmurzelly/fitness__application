@@ -3,6 +3,7 @@ import Navbar from '@/scenes/navbar' // we dont have to add index.tsx. it takse 
 import { SelectedPage } from "@/shared/types";
 import Home from '@/scenes/home';
 import Benefits from './scenes/benefits';
+import OurClasses from '@/scenes/ourclasses/index'
 
 function App() {
   const [selectedPage, setSelectedPage] = useState<SelectedPage>(SelectedPage.Home);
@@ -31,6 +32,7 @@ function App() {
         />
         <Home setSelectedPage={setSelectedPage} />
         <Benefits setSelectedPage={setSelectedPage} />
+        <OurClasses setSelectedPage={setSelectedPage} />
     </div>
   )
 }
