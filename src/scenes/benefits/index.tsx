@@ -1,4 +1,3 @@
-import React from 'react';
 import { SelectedPage } from '@/shared/types';
 import { BenefitType } from '@/shared/types';
 import { HomeModernIcon, UserGroupIcon, AcademicCapIcon } from '@heroicons/react/24/solid';
