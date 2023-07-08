@@ -73,7 +73,7 @@ function OurClasses({ setSelectedPage }: Props) {
                             enim mattis odio in risus nunc.</p>
                     </div>
                 </motion.div>
-                <div className="mt-10 h-[353px] w-full overflow-x-auto overflow-y-hidden">
+                <div className="mt-10 h-[353px] w-full overflow-x-auto overflow-y-hidden scrollbar scrollbar-h-2 scrollbar-thumb-red-300 scrollbar-track-red-200">
                     <ul className='w-[2450px] white-space-nowrap'>
                         {classes.map((item, index) => (
                             <Class
